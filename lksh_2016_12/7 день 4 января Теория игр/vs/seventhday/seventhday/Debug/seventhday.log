@@ -1,0 +1,7 @@
+﻿  Udege returns.cpp
+c:\users\otani\onedrive\документы\visual studio 2015\projects\seventhday\seventhday\udege returns.cpp(54): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\otani\onedrive\документы\visual studio 2015\projects\seventhday\seventhday\udege returns.cpp(59): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\otani\onedrive\документы\visual studio 2015\projects\seventhday\seventhday\udege returns.cpp(78): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\otani\onedrive\документы\visual studio 2015\projects\seventhday\seventhday\udege returns.cpp(90): warning C4018: <: несоответствие типов со знаком и без знака
+  seventhday.vcxproj -> C:\Users\otani\OneDrive\Документы\Visual Studio 2015\Projects\seventhday\Debug\seventhday.exe
+  seventhday.vcxproj -> C:\Users\otani\OneDrive\Документы\Visual Studio 2015\Projects\seventhday\Debug\seventhday.pdb (Full PDB)

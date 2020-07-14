@@ -1,0 +1,10 @@
+while (!ans.empty()) {
+	cout << *ans.begin() << endl;
+	ans.erase(ans.begin());
+}
+
+проще так:
+
+for(const auto& v: ans) {
+	cout << v << std::endl;
+}

@@ -1,0 +1,51 @@
+  #include <iostream>
+  #include <cstdio>
+  #include <vector>
+  #include <algorithm>
+
+  struct point {
+    int x;
+    int y;
+
+    point (int xx=0, int yy=0) {
+      x = xx;
+      y = yy;
+    }
+
+    point operator - (point &other) {
+      return point(x - other.x, y - other.y);
+    }
+
+    long long len() {
+      return x * x + y * y;
+    }
+
+    long long operator * (point &other) {
+      return x * other.y - y * other.x;
+    }
+  };
+
+  int main() {
+
+    std::vector<point> pts;
+    for (int i = 0; i < 10; ++i) {
+      y = rand() % 10;
+      pts.emplace_back(i, y);
+      pts.emplace_back(i, y);
+    }
+
+    point leftmost = point(0, 0);
+
+    // ============== ”далить все повторени€ =============================
+    pts.resize(std::unique(pts.begin(), pts.end(), [](point &a, point b) {
+      return a.x == b.x && a.y == b.y;
+    }) - pts.begin());
+
+    // ===================== ќтсортировать по пол€рному углу =============
+    std::sort(pts.begin(), pts.end(), [leftmost](point &a, point &b) {
+      return ((a - leftmost) * (b - leftmost) > 0) ||
+             (((a - leftmost) * (b - leftmost) == 0) && (a.len() < b.len()));
+    });
+
+    return 0;
+  }

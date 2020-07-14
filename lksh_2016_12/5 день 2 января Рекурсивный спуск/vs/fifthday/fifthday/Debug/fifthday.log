@@ -1,0 +1,4 @@
+﻿  My_programming_language.cpp
+c:\users\otani\onedrive\документы\visual studio 2015\projects\fifthday\fifthday\my_programming_language.cpp(45): warning C4244: инициализация: преобразование "double" в "ll", возможна потеря данных
+  fifthday.vcxproj -> C:\Users\otani\OneDrive\Документы\Visual Studio 2015\Projects\fifthday\Debug\fifthday.exe
+  fifthday.vcxproj -> C:\Users\otani\OneDrive\Документы\Visual Studio 2015\Projects\fifthday\Debug\fifthday.pdb (Full PDB)

@@ -1,0 +1,12 @@
+﻿  Udege returns.cpp
+Udege returns.cpp(54): warning C4018: <: несоответствие типов со знаком и без знака
+Udege returns.cpp(59): warning C4018: <: несоответствие типов со знаком и без знака
+Udege returns.cpp(78): warning C4018: <: несоответствие типов со знаком и без знака
+Udege returns.cpp(90): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода
+  31 of 369 functions ( 8.4%) were compiled, the rest were copied from previous compilation.
+    25 functions were new in current compilation
+    8 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  seventhday.vcxproj -> C:\Users\otani\OneDrive\Документы\Visual Studio 2015\Projects\seventhday\Release\seventhday.exe
+  seventhday.vcxproj -> C:\Users\otani\OneDrive\Документы\Visual Studio 2015\Projects\seventhday\Release\seventhday.pdb (Full PDB)
